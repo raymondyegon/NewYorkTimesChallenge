@@ -84,13 +84,13 @@ class _OnBoardingState extends State<OnBoarding> {
         doneButtonText: "Done",
         skipButtonText: "Skip",
         pageList: pageList,
-        onDoneButtonPressed: () => Navigator.push(
+        onDoneButtonPressed: () => Navigator.pushReplacement(
           context,
           MaterialPageRoute(
             builder: (context) => TopStory(),
           ),
         ),
-        onSkipButtonPressed: () => Navigator.push(
+        onSkipButtonPressed: () => Navigator.pushReplacement(
           context,
           MaterialPageRoute(
             builder: (context) => TopStory(),
