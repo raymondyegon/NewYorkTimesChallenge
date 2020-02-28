@@ -3,15 +3,13 @@ import 'package:new_york_times_challenge/screens/SplashScreen.dart';
 
 class MyApp extends StatelessWidget {
 
-  @override
-  
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.white,
       ),
       home: splashScreen,
     );
