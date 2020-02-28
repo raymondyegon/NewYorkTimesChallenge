@@ -11,8 +11,19 @@ class _TopStoryState extends State<TopStory> {
     return WillPopScope(
       onWillPop: () => Future.value(false),
       child: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text('Top Story'),
+          centerTitle: true,
+          // backgroundColor: Colors.white,
+          title: Text(
+            'New York Times',
+            style: TextStyle(
+              fontFamily: 'chomsky',
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+              fontSize: 40,
+            ),
+          ),
         ),
         body: Center(
           child: Column(
